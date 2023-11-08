@@ -2,7 +2,7 @@ Particle [] space = new Particle[5000];
 void setup()
 {
   size (1000,1000);
-  for (int i = 0; i < line.length;i++){
+  for (int i = 0; i < space.length;i++){
     space[i] = new Particle();
   }
   for (int i = 0; i < 1;i++){
@@ -13,7 +13,7 @@ void setup()
 void draw()
 {
   background(77,144,237);
-  for (int i = 0; i < line.length; i++){
+  for (int i = 0; i < space.length; i++){
     space[i].show();
     space[i].fly();
   }

@@ -14,8 +14,8 @@ void draw()
 {
   background(77,144,237);
   for (int i = 0; i < line.length; i++){
-    line[i].show();
-    line[i].fly();
+    space[i].show();
+    space[i].fly();
   }
   //your code here
 }

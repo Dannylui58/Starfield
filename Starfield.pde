@@ -1,4 +1,4 @@
-Particle [] line = new Particle[1000];
+Particle [] line = new Particle[5000];
 void setup()
 {
   size (1000,1000);

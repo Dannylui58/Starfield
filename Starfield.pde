@@ -1,12 +1,12 @@
-Particle [] line = new Particle[5000];
+Particle [] space = new Particle[5000];
 void setup()
 {
   size (1000,1000);
   for (int i = 0; i < line.length;i++){
-    line[i] = new Particle();
+    space[i] = new Particle();
   }
   for (int i = 0; i < 1;i++){
-    line[i] = new OddballParticle();
+    space[i] = new OddballParticle();
   }
   //your code here
 }

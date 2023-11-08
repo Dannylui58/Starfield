@@ -59,7 +59,7 @@ int myColor;
       myX = Math.random()/5+499.9;
       myColor = color(0);
       myAngle = Math.random()*Math.PI;
-      mySpeed = Math.random()/4.11+.005;
+      mySpeed = Math.random()/8.22+.005;
     //your code here
   }
   }
